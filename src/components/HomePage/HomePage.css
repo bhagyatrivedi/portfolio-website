@@ -1,0 +1,440 @@
+/* src/components/HomePage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1; /* Light Grayish Blue */
+    color: #333; /* Dark Blue */
+  }
+  
+  /* ... your existing styles ... */
+  
+  .homepage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      background-color: #87cefa; /* Light Sky Blue */
+      padding: 10px;
+      border-radius: 8px;
+    }
+  
+    li {
+      font-size: 16px;
+      margin: 0;
+  
+      a {
+        text-decoration: none;
+        color: #333; /* Dark Blue */
+        padding: 10px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #6495ed; /* Cornflower Blue */
+        }
+      }
+    }
+  
+    svg {
+      font-size: 24px;
+      color: #fff; /* White */
+    }
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+  
+      .info {
+        text-align: left;
+  
+        h1 {
+          margin: 0;
+          color: #072af2; /* Royal Blue */
+        }
+  
+        p {
+          margin: 5px 0;
+          color: #090909;
+          svg {
+            margin-right: 5px;
+            color: #072af2; /* Royal Blue */
+          }
+        }
+      }
+    }
+  }
+  
+  /* ... your existing styles ... */
+
+.about-me, .education-info, .experience {
+    background-color: #f9f9f9; /* Light Gray */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    color: #3498db; /* Dodger Blue */
+    border-bottom: 2px solid #3498db; /* Dodger Blue */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    color: #555; /* Dark Gray */
+    line-height: 1.6;
+  }
+  
+  /* ... your existing styles ... */
+  
+  /* src/components/HomePage.css */
+
+/* ... (previous styles) */
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .experience-logo {
+    width: 120px; /* Adjust the width as needed */
+    margin-right: 20px;
+  }
+  
+  .experience-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add border-radius if desired */
+  }
+  
+  .experience-details {
+    flex: 1;
+  }
+  
+  /* ... (existing styles) */
+  
+  
+  .education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .education-info {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .education-item:hover {
+    transform: translateX(10px);
+  }
+  
+  .education-carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .education-item {
+    min-width: 300px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .education-info {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .education-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .header {
+    background: linear-gradient(45deg, #FF5F6D, #FFC371);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info p {
+    margin: 0;
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .info p.fade-out {
+    animation: fade-out 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-out {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+  }
+  
+  .job-title-1 { background: linear-gradient(45deg, #4b6cb7, #182848); }
+  .job-title-2 { background: linear-gradient(45deg, #e43a15, #e65245); }
+  .job-title-3 { background: linear-gradient(45deg, #603813, #e6945e); }
+  
+  .info p.typing::after {
+    content: '|';
+    animation: blink-caret 0.75s infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #fff; }
+  }
+  
+  /* ... your existing styles ... */
+  
+  /* ... your existing styles ... */
+
+.skills {
+    background-color: #f9f9f9; /* Light Gray */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h2 {
+    color: #3498db; /* Dodger Blue */
+    border-bottom: 2px solid #3498db; /* Dodger Blue */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White */
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-item p {
+    margin: 0;
+    color: #333; /* Dark Blue */
+    font-weight: bold;
+  }
+  
+  .skill-item span {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .progress-bar {
+    height: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: #3a03f061; /* Light Gray */
+  }
+  
+  .progress-bar div {
+    height: 100%;
+    width: 0;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Define unique styles for each skill */
+  .skill-item:nth-child(odd) {
+    background-color: #f0f0f0; /* Lighter Gray for odd items */
+  }
+  
+  .skill-item:nth-child(even) {
+    background-color: #e0e0e0; /* Slightly darker Gray for even items */
+  }
+  
+  /* ... your existing styles ... */
+  /* src/components/HomePage.css */
+
+/* ... existing styles ... */
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .education-info {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .education-image {
+    width: 120px; /* Adjust the width as needed */
+    margin-left: 20px;
+  }
+  
+  .education-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add border-radius if desired */
+  }
+/* src/components/HomePage.css */
+
+/* ... (previous styles) */
+
+/* Projects Section */
+.projects {
+    margin-top: 40px;
+  }
+  
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-details {
+    padding: 20px;
+  }
+  
+  .project-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-details p {
+    margin-bottom: 20px;
+  }
+  
+  .project-link {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .project-link:hover {
+    background-color: #2980b9;
+  }
+  
+  /* src/components/HomePage.css */
+
+/* ... (previous styles) */
+
+.resume-section {
+    background-color: #fff; /* White */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume h2 {
+    color: #3498db; /* Dodger Blue */
+    border-bottom: 2px solid #3498db; /* Dodger Blue */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .resume p {
+    color: #555; /* Dark Gray */
+    line-height: 1.6;
+  }
+  
+  .resume a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .resume a:hover {
+    background-color: #2980b9;
+  }
+
+  /* In your CSS file or within a style tag */
+.contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .contact-icons img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+  }
+  
+  
