@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import HomePage from '../../portfolio-client/src/components/HomePage/HomePage';
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
   return (
