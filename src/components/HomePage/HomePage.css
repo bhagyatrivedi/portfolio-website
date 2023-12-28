@@ -51,33 +51,41 @@ body {
     }
   }
   
- header {
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  
     .profile {
-      flex-direction: column;
+      display: flex;
       align-items: center;
-
+      justify-content: center;
+  
       img {
-        margin-right: 0;
-        margin-bottom: 10px;
-        max-width: 100%; /* Ensure the image doesn't exceed its container */
-        height: auto;   /* Maintain the aspect ratio */
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
+        margin-right: 20px;
       }
-
+  
       .info {
-        text-align: center;
-
+        text-align: left;
+  
         h1 {
-          font-size: 1.5em;
+          margin: 0;
+          color: #072af2; /* Royal Blue */
         }
-
+  
         p {
-          font-size: 0.8em;
+          margin: 5px 0;
+          color: #090909;
+          svg {
+            margin-right: 5px;
+            color: #072af2; /* Royal Blue */
+          }
         }
       }
     }
   }
-
   
   /* ... your existing styles ... */
 
@@ -428,7 +436,8 @@ body {
     width: 30px; /* Adjust the size as needed */
     height: 30px;
   }
-@media (max-width: 768px) {
+  
+  @media (max-width: 768px) {
     /* Styles for tablets and smaller screens */
   
     .homepage {
@@ -454,6 +463,7 @@ body {
           img {
             margin-right: 0;
             margin-bottom: 10px;
+            border-radius: 50%;
           }
     
           .info {
@@ -469,6 +479,7 @@ body {
           }
         }
       }
+    
     
       .about-me,
       .education-info,
@@ -511,5 +522,3 @@ body {
         height: 50px;
       }
     }
-  
-  
