@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faMapMarker,
   faUniversity,
-  faStar,
   
 } from '@fortawesome/free-solid-svg-icons';
 import myPicture from '../../Images/bhagya-web.jpg'; // Replace with the path to your image
