@@ -191,9 +191,6 @@ const HomePage = () => {
               <p>
                 <FontAwesomeIcon icon={faMapMarker} />: Boston, USA
               </p>
-              <p>
-                <FontAwesomeIcon icon={faStar} /> GPA: 3.56/4.0
-              </p>
             </div>
           </div>
           <div className="education-item">
