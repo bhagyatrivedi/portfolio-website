@@ -16,6 +16,7 @@ import IG from '../../Images/IG.JPG';
 import freecharge from '../../Images/freecharge.jpeg';
 import deloitte from '../../Images/deloitte.png';
 import aed from '../../Images/aed.JPG';
+import aed2 from '../../Images/aed2.png';
 import linkedin from '../../Images/linkedin.png';
 import outlook from '../../Images/outlook.jpeg';
 const HomePage = () => {
@@ -31,6 +32,12 @@ const HomePage = () => {
 
   const projects = [
     {
+      title: 'Eduversity - Decentralized Education System',
+        description: 'I spearheaded the conception and execution of a groundbreaking decentralized digital educational platform, strategically shifting the focus from traditional institutions to empowering professors. With a vision to enhance global education accessibility and alleviate tuition costs, I championed the development of a fully decentralized system, granting professors autonomy over courses, schedules, and specialization. The implementation of a reputation index ensured transparent visibility into professors performance, aiding students in informed course selection. This inclusive platform facilitated remote professorial operations worldwide, breaking down geographical barriers through compatibility with tablets, browsers, and smart devices. From a streamlined startup process with a universal student directory to a robust transcript system enabling global course registration, the platform fostered efficiency and data analytics. Additionally, a graduation declaration process, a comprehensive course scheduling system, and an insightful dashboard for performance data collection were implemented, ensuring accountability and academic success. My innovative contributions, outlined in a detailed report and supported by an architecture diagram and class diagram, culminated in the successful development and deployment of a fully functional application. In conclusion, my work addresses the potential for transformative impact on education accessibility and affordability, particularly for the less fortunate, presenting a dynamic and evolving digital educational environment.',
+        githubLink: 'https://github.com/bhagyatrivedi/java-project-eduversity',
+        image: `${aed2}`
+    }
+    {
         title: 'OneBoston-Drug Regulator (Java & Java Swing based Full Stack Project)',
         description: 'The proposed approach involves developing a centralized platform that integrates bio-chemical compound data, disease information, and drug-related details. This platform should facilitate seamless communication between doctors, employees, and organizations, incorporating a role-based access system to ensure data security. Drug regulators can benefit from a dedicated module for monitoring and evaluating the safety and efficacy of drug compounds. Additionally, the system should include features for managing medical inventory within healthcare enterprises. A robust network infrastructure will underpin this solution, fostering collaboration, compliance, and information exchange, thereby advancing drug development and optimizing healthcare delivery in response to the evolving global health landscape.',
         githubLink: '',
@@ -38,7 +45,7 @@ const HomePage = () => {
     },
     {
         title: 'E-Commerce Database Management System',
-        description: 'Build an E-Commerce Database system to manage, store and retrieve data pertaining to an E-Commerce Platform. The E-commerce Database system will provide real-time tracking of online purchase operations.',
+        description: 'I designed and implemented a comprehensive e-commerce database, encompassing tables for customers, orders, products, and more. To bolster security, I incorporated robust data encryption measures for sensitive customer information. In enhancing functionality, I developed user-defined functions, enabling dynamic calculations for order item total prices and shipment costs. Core operational procedures, including order creation, stock updates, and return processing, were seamlessly integrated through implemented stored procedures. To enforce business rules, I employed triggers, ensuring processes like checking stock availability before ordering and generating shipment tracking numbers were executed with precision. This project not only showcased my adept database management skills but also underscored my commitment to developing secure and efficient systems.',
         githubLink:'https://github.com/bhagyatrivedi/DMDD_Project_Group18',
         image:`${dmdd}`,
     },
